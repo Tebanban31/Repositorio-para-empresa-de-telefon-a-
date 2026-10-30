@@ -1,0 +1,18 @@
+HU-01. Registrar y configurar una línea telefónica
+
+Como administrador del sistema de telefonía,
+
+Quiero registrar una línea telefónica indicando su número y propietario,
+
+Para identificar a quién pertenece cada línea y consultar sus datos.
+
+
+    Criterios de aceptación
+
+1. El sistema debe permitir asignar un número telefónico a la línea.
+
+2. El sistema debe permitir asignar el nombre del propietario.
+
+3. No se deben aceptar números vacíos ni nombres de propietario vacíos.
+
+4. Los datos deben poder consultarse mediante métodos de acceso (get).
