@@ -16,3 +16,75 @@ Para identificar a quién pertenece cada línea y consultar sus datos.
 3. No se deben aceptar números vacíos ni nombres de propietario vacíos.
 
 4. Los datos deben poder consultarse mediante métodos de acceso (get).
+
+
+HU-02. Calcular el costo del consumo telefónico
+
+Como administrador del sistema de telefonía,
+
+quiero calcular el costo de los minutos consumidos por una línea,
+
+para conocer el valor correspondiente al uso del servicio telefónico.
+
+    Criterios de aceptación
+
+1. El sistema debe permitir registrar los minutos consumidos.
+
+2. No se deben aceptar cantidades negativas de minutos.
+
+3. El costo debe calcularse utilizando una tarifa de $150 COP por minuto.
+
+4. El sistema debe permitir consultar el total de minutos y el costo calculado.
+
+
+HU-03. Administrar una línea prepago
+
+Como administrador del sistema de telefonía,
+
+quiero registrar recargas y simular llamadas en una línea prepago,
+
+para controlar el saldo disponible y el dinero utilizado en el consumo telefónico.
+
+        Criterios de aceptación
+
+1. El sistema debe permitir registrar una recarga mayor que cero.
+
+2. El valor de la recarga debe sumarse al saldo disponible.
+
+3. El sistema debe acumular el total de dinero recargado.
+
+4. Al registrar una llamada, el sistema debe calcular su costo según los minutos consumidos y la tarifa establecida.
+
+5. Si existe saldo suficiente, el costo de la llamada debe descontarse del saldo disponible.
+
+6. Si el saldo es insuficiente, la llamada debe rechazarse y no debe modificarse el saldo ni los minutos consumidos.
+
+7. El sistema debe permitir consultar el saldo disponible y el total recargado.
+
+
+
+HU-04. Administrar una línea postpago
+
+Como administrador del sistema de telefonía,
+
+quiero configurar un límite de crédito y un cargo fijo mensual para una línea postpago,
+
+para controlar el consumo y conocer el valor total de la factura.
+
+        Criterios de aceptación
+
+1. El sistema debe permitir establecer un límite de crédito que no sea negativo.
+
+2. El sistema debe permitir establecer un cargo fijo mensual que no sea negativo.
+
+3. Al registrar una llamada, el sistema debe calcular el costo acumulado de los minutos consumidos.
+
+4. Si el costo acumulado supera el límite de crédito, la llamada debe rechazarse.
+
+5. Si el consumo se encuentra dentro del límite, los minutos deben acumularse.
+
+6. La factura final debe incluir el costo del consumo más el cargo fijo mensual.
+
+7. El sistema debe permitir consultar el límite de crédito, el cargo fijo y el valor de la factura.
+
+
